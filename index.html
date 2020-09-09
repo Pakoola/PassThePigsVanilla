@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🐷 Pass The Pigs 🐖</title>
     <script src="./index.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <input type="text" name="playerName" id="playerName">
-    <button onclick="addPlayer()">Add player</button>
+    <h2>Pass the Pigs!</h2>
+    <input type="text" name="playerName" id="playerName" placeholder="enter name...">
+    <button onclick="addPlayer()" class="add-player">Add Player</button>
+    <button onclick="resetGame()">Reset Game</button>
     <div id="players"></div>
     
 </body>
